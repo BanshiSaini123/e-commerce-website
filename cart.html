@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-Commerce Website</title>
+    <!--fontawosome https://fontawesome.com/icons for icons and text-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <section id="header">
+        <a href="#"><img src="logo12-removebg-preview.png" height="80" width="150" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="blog.html">blog</a></li> <!--class active is used for highlight any active content from a selection, -->
+                <li><a href="about.html">about</a></li>
+                <li><a  href="contact.html">contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fas fa-shopping-cart"></i></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times
+                    "></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#let's s_talk</h2>
+        <p>LEAVE A MESSAGE , WE LOVE TO HEAR FROM YOU!</p>
+    </section>
+
+    <section id="cart" class="section-p1"> <!--global class name-->
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Images</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                    <td><img src="f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shitr</td>
+                    <td>$188.12</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.12</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                    <td><img src="f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shitr</td>
+                    <td>$188.12</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.12</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle"></i></a></td>
+                    <td><img src="f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shitr</td>
+                    <td>$188.12</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.12</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+   <section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$335</td>               
+                </tr>
+                <tr>
+                    <td>shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        
+    </div>
+   </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo12-removebg-preview.png" height="100px" width="150px" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address</strong> : Quantum University Roorkee</p>
+            <p> <strong>Phone</strong> : +91 7300731593</p>
+            <p> <strong>Hours</strong> : 10:00 - 18:00 , Mon. - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="fas fa-hashtag"></i>
+                    <i class="fa-instagram-square"></i>                    
+                    <i class="fas fa-hashtag"></i>
+                    <i class="fas fa-hashtag"></i>                
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Ploicy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="app.jpg" alt="">
+                <img src="play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2025, Banshi Saini etc - HTML CSS Ecommerce Project </p>
+            <h4>B.Tech Cse Student</h4>
+        </div>
+    </footer>
+
+
+    <script src="script.js" ></script>    
+</body>
+</html>  
